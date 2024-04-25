@@ -1,0 +1,54 @@
+.header {
+    background-color: #0AAEB9;
+    height: 181px;
+    padding: 20px;
+  }
+  
+  .hospital-name {
+    font-family: 'Poppins';
+    font-size: 89px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    margin-top: 30px;
+  }
+  
+  .tagline {
+    font-family: 'Jomhuria';
+    font-size: 46px;
+    color: #301465;
+    margin: 40px 40px;
+    text-align: right;
+  }
+  
+  .buttons {
+    text-align: right;
+  }
+  
+  .admin-button {
+    font-family: 'Josefin Sans';
+    font-size: 64px;
+    background-color: #7DE3EA;
+    padding: 10px 30px;
+    margin: 50px 40px;
+    border: none;
+    border-radius: 30px;
+    color: #301465;
+    margin-right:100px;
+  }
+  
+  .patient-button {
+    font-family: 'Josefin Sans';
+    font-size: 64px;
+    background-color: #7DE3EA;
+    padding: 10px 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 30px;
+    color: #301465;
+    margin-right: 100px;
+  }
+  .logo {
+    float: left;
+    margin-right: 20px;
+  }
