@@ -1,10 +1,11 @@
 import './App.css';
+import ConfirmationPage from './appmnt confirm/confirm';
 //import Login from './login/login';
-import PatientPortal from './patient portal/patient';
+//import PatientPortal from './patient portal/patient';
 
 function App() {
   return (
-    <PatientPortal/>
+    <ConfirmationPage/>
   )
 }
 
