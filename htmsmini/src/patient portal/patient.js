@@ -24,7 +24,7 @@ const PatientPortal = () => {
 
   const handleScroll = (scrollType) => {
     if (scrollType === 'left') {
-      setVisibleDoctors((prev) => Math.max(prev - 1, 2)); // Ensure at least 2 doctors are always visible
+      setVisibleDoctors((prev) => Math.max(prev - 1, 2));
     } else {
       setVisibleDoctors((prev) => Math.min(prev + 1, doctors.length));
     }
