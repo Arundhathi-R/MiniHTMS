@@ -1,14 +1,16 @@
 import React from 'react';
 import './HomePage.css';
-import logo from '../images/logo.PNG';
+import cross from './assets/hospital cross.png';
+import doctor from './assets/dr homepage.jpeg'
 
 function BlankWhitePage() {
   return (
     <div>
       <div className="header">
-        <img src={logo} alt="Logo" />
+        <img src={cross} alt="Logo" className="logo" />
         <div className="hospital-name">Harmony Health Hospital</div>
       </div>
+      <img src={doctor} alt="doctor" className="dr"/>
       <div className="tagline">Nurturing Health, Restoring Lives</div>
       <div className="buttons">
         <div>
